@@ -14,9 +14,9 @@ def tree(i):
         return 
     else:
         t.forward(i)
-        t.color('orange')
+        t.color('blue')
         t.circle(2)
-        t.color('brown')
+        t.color('red')
         t.left(30)
         tree(3*i/4)
         t.right(60)
@@ -26,4 +26,4 @@ def tree(i):
 tree(100)
 turtle.done()
 
-print("hey how are you")
+
